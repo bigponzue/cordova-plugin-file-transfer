@@ -22,8 +22,7 @@
   "scripts": {
     "test": "npm run lint && npm run style",
     "lint": "jshint www && jshint src && jshint tests",
-    "style": "jscs tests/tests.js",
-    "preinstall": "node preinstall.js"
+    "style": "jscs tests/tests.js"
   },
   "repository": {
     "type": "git",
